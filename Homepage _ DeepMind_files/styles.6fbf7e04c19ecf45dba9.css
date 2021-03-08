@@ -251,71 +251,60 @@ template {
     display: none
 }
 
+/* roboto-regular - latin */
 @font-face {
-    font-family: "Deepmind Serif";
-    font-weight: 700;
-    src: url(/assets/fonts/deepmind-serif/DeepMindSerif-Bold.woff2) format("woff2"), url(/assets/fonts/deepmind-serif/DeepMindSerif-Bold.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* roboto-italic - latin */
 @font-face {
-    font-family: "Deepmind Serif";
-    font-style: italic;
-    font-weight: 700;
-    src: url(/assets/fonts/deepmind-serif/DeepMindSerif-BoldItalic.woff2) format("woff2"), url(/assets/fonts/deepmind-serif/DeepMindSerif-BoldItalic.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* roboto-500 - latin */
 @font-face {
-    font-family: "Deepmind Serif";
-    font-weight: 400;
-    src: url(/assets/fonts/deepmind-serif/DeepMindSerif-Display.woff2) format("woff2"), url(/assets/fonts/deepmind-serif/DeepMindSerif-Display.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* roboto-500italic - latin */
 @font-face {
-    font-family: "Deepmind Serif";
-    font-style: italic;
-    font-weight: 400;
-    src: url(/assets/fonts/deepmind-serif/DeepMindSerif-DisplayItalic.woff2) format("woff2"), url(/assets/fonts/deepmind-serif/DeepMindSerif-DisplayItalic.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* roboto-700 - latin */
 @font-face {
-    font-family: "Deepmind Sans";
-    font-weight: 700;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-Bold.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-Bold.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* roboto-700italic - latin */
 @font-face {
-    font-family: "Deepmind Sans";
-    font-style: italic;
-    font-weight: 700;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-BoldItalic.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-BoldItalic.woff) format("woff")
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('../assets/fonts/roboto-v20-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v20-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-@font-face {
-    font-family: "Deepmind Sans";
-    font-weight: 500;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-Medium.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-Medium.woff) format("woff")
-}
-
-@font-face {
-    font-family: "Deepmind Sans";
-    font-style: italic;
-    font-weight: 500;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-MediumItalic.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-MediumItalic.woff) format("woff")
-}
-
-@font-face {
-    font-family: "Deepmind Sans";
-    font-weight: 400;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-Regular.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-Regular.woff) format("woff")
-}
-
-@font-face {
-    font-family: "Deepmind Sans";
-    font-style: italic;
-    font-weight: 400;
-    src: url(/assets/fonts/deepmind-sans/DeepMindSans-Italic.woff2) format("woff2"), url(/assets/fonts/deepmind-sans/DeepMindSans-Italic.woff) format("woff")
-}
-
 figure,
 h1,
 h2,
@@ -457,7 +446,7 @@ button {
 
 a {
     background-color: transparent;
-    color: #0053d6;
+    color: #654ae9;
     text-decoration: none
 }
 
@@ -491,7 +480,7 @@ p a {
 }
 
 .user-content a {
-    border-bottom: 1px solid #0053d6
+    border-bottom: 1px solid #654ae9
 }
 
 .user-content a:focus,
@@ -566,8 +555,8 @@ span.caption.title {
 .user-content h4,
 .user-content h5 {
     -webkit-font-smoothing: antialiased;
-    color: #0053d6;
-    font-family: "Deepmind Serif", serif;
+    color: #654ae9;
+    font-family: "Roboto", serif;
     font-weight: 400;
     margin-bottom: 30px;
     position: relative;
@@ -599,7 +588,7 @@ span.caption.title {
 
 .dm-h1,
 .user-content h1 {
-    font: 700 42px/48px "Deepmind Serif", serif;
+    font: 700 42px/48px "Roboto", serif;
     letter-spacing: -.5px
 }
 
@@ -642,7 +631,7 @@ span.caption.title {
 
 .dm-h2,
 .user-content h2 {
-    font: 700 32px/36px "Deepmind Serif", serif;
+    font: 700 32px/36px "Roboto", serif;
     letter-spacing: -.25px
 }
 
@@ -743,7 +732,7 @@ span.caption.title {
 }
 
 .theme-dark .footer-promos .dm-h5 {
-    color: #0053d6
+    color: #654ae9
 }
 
 .dm-cta {
@@ -776,8 +765,8 @@ span.caption.title {
 }
 
 .dm-cta.icon {
-    background-color: #0053d6;
-    border: 1px solid #0053d6;
+    background-color: #654ae9;
+    border: 1px solid #654ae9;
     border-radius: 50%
 }
 
@@ -789,7 +778,7 @@ span.caption.title {
 
 .dm-cta.icon:focus svg,
 .dm-cta.icon:hover svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.icon svg {
@@ -805,8 +794,8 @@ span.caption.title {
 
 .dm-cta.icon.flat:focus,
 .dm-cta.icon.flat:hover {
-    background-color: #0053d6;
-    border-color: #0053d6
+    background-color: #654ae9;
+    border-color: #654ae9
 }
 
 .dm-cta.icon.flat:focus svg,
@@ -815,7 +804,7 @@ span.caption.title {
 }
 
 .dm-cta.icon.flat svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.icon.no-border {
@@ -834,19 +823,19 @@ span.caption.title {
 .dm-cta.icon.alternate {
     background-color: #ffdb13;
     border: 1px solid #ffdb13;
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.icon.alternate:focus,
 .dm-cta.icon.alternate:hover {
-    background-color: #0053d6;
-    border: 1px solid #0053d6;
+    background-color: #654ae9;
+    border: 1px solid #654ae9;
     fill: #fff
 }
 
 .dm-cta.pill {
-    background-color: #0053d6;
-    border: 1px solid #0053d6;
+    background-color: #654ae9;
+    border: 1px solid #654ae9;
     border-radius: 30px;
     color: #fff;
     padding: 12px 16px
@@ -858,14 +847,14 @@ span.caption.title {
 .dm-cta.pill:hover {
     background-color: #ffdb13;
     border-color: #ffdb13;
-    color: #0053d6
+    color: #654ae9
 }
 
 .dm-cta.pill.flat:focus svg,
 .dm-cta.pill.flat:hover svg,
 .dm-cta.pill:focus svg,
 .dm-cta.pill:hover svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.pill svg {
@@ -879,11 +868,11 @@ span.caption.title {
 
 .dm-cta.pill.flat {
     background: 0 0;
-    color: #0053d6
+    color: #654ae9
 }
 
 .dm-cta.pill.flat svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.pill.tag {
@@ -893,8 +882,8 @@ span.caption.title {
 
 .dm-cta.pill.tag:focus,
 .dm-cta.pill.tag:hover {
-    background-color: #0053d6;
-    border: 1px solid #0053d6;
+    background-color: #654ae9;
+    border: 1px solid #654ae9;
     color: #fff
 }
 
@@ -906,17 +895,17 @@ span.caption.title {
 .dm-cta.pill.alternate {
     background-color: #ffdb13;
     border: 1px solid #ffdb13;
-    color: #0053d6
+    color: #654ae9
 }
 
 .dm-cta.pill.alternate svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 .dm-cta.pill.alternate:focus,
 .dm-cta.pill.alternate:hover {
-    background-color: #0053d6;
-    border: 1px solid #0053d6;
+    background-color: #654ae9;
+    border: 1px solid #654ae9;
     color: #fff
 }
 
@@ -969,7 +958,7 @@ button.nav-cta.small {
 .dm-cta.link svg {
     background-color: #ffdb13;
     border-radius: 50%;
-    fill: #0053d6;
+    fill: #654ae9;
     height: 30px;
     min-width: 30px;
     width: 30px
@@ -982,7 +971,7 @@ button.nav-cta.small {
 
 .dm-cta.link:focus svg,
 .dm-cta.link:hover svg {
-    background-color: #0053d6;
+    background-color: #654ae9;
     fill: #fff
 }
 
@@ -992,13 +981,13 @@ button.nav-cta.small {
 
 .dm-cta.link.flat svg {
     background: 0 0;
-    border: 1px solid #0053d6;
-    fill: #0053d6
+    border: 1px solid #654ae9;
+    fill: #654ae9
 }
 
 .dm-cta.link.flat:focus svg,
 .dm-cta.link.flat:hover svg {
-    background-color: #0053d6;
+    background-color: #654ae9;
     fill: #fff
 }
 
@@ -1023,13 +1012,13 @@ button.nav-cta.small {
 .dm-cta.link.transparent:focus svg,
 .dm-cta.link.transparent:hover svg {
     background-color: transparent;
-    fill: #0053d6;
+    fill: #654ae9;
     -webkit-transform: translateX(11px);
     transform: translateX(11px)
 }
 
 .dm-cta.arrow svg {
-    fill: #0053d6;
+    fill: #654ae9;
     height: 30px;
     padding: 8px;
     width: 30px
@@ -1087,12 +1076,12 @@ button.nav-cta.small {
 [colour-theme*=light][colour-theme$=important] .user-content h4,
 [colour-theme*=light][colour-theme$=important] .user-content h5,
 [colour-theme*=light][colour-theme$=important] [class*=dm-h] {
-    color: #0053d6
+    color: #654ae9
 }
 
 [colour-theme*=light] blockquote svg,
 [colour-theme*=light][colour-theme$=important] blockquote svg {
-    fill: #0053d6
+    fill: #654ae9
 }
 
 [colour-theme*=light] a,
@@ -1112,7 +1101,7 @@ button.nav-cta.small {
 
 [colour-theme*=light] a,
 [colour-theme*=light][colour-theme$=important] a {
-    color: #0053d6
+    color: #654ae9
 }
 
 [colour-theme*=light] a:focus,
@@ -1129,7 +1118,7 @@ button.nav-cta.small {
 
 [colour-theme*=dark][colour-theme$=important][colour-theme*=blue],
 [colour-theme*=dark][colour-theme*=blue] {
-    background-color: #0053d6
+    background-color: #654ae9
 }
 
 [colour-theme*=dark][colour-theme$=important][colour-theme*=ink],
@@ -1270,7 +1259,7 @@ button.nav-cta.small {
 }
 
 #cookieBar .cookieBarButtons a {
-    background-color: #0053d6;
+    background-color: #654ae9;
     border-radius: 30px;
     font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
@@ -1303,7 +1292,7 @@ button.nav-cta.small {
 #cookieBar .cookieBarButtons a:focus,
 #cookieBar .cookieBarButtons a:hover {
     background-color: #ffdb13;
-    color: #0053d6
+    color: #654ae9
 }
 
 #cookieBar .cookieBarButtons a:not(:last-child) {
@@ -1334,7 +1323,7 @@ button.nav-cta.small {
 }
 
 .user-content.is-homepage-intro hr {
-    background: #0053d6;
+    background: #654ae9;
     border: 0;
     height: 1px;
     width: 100px
@@ -1405,7 +1394,7 @@ button.nav-cta.small {
 }
 
 .user-content.intro hr {
-    border: 1px solid #0053d6;
+    border: 1px solid #654ae9;
     margin: 0 0 30px;
     width: 100px
 }
@@ -1448,7 +1437,7 @@ dm-research-hub-hero .user-content h4 {
 
 dm-research-hub-hero .user-content a {
     border: 0;
-    box-shadow: inset 0 -4px 0 #d4ffed, inset 0 -5px 0 #0053d6
+    box-shadow: inset 0 -4px 0 #d4ffed, inset 0 -5px 0 #654ae9
 }
 
 dm-research-hub-hero .user-content a:focus,
@@ -1483,7 +1472,7 @@ dm-impact-carousel .user-content p {
 }
 
 dm-feature-text hr {
-    background: #0053d6;
+    background: #654ae9;
     border: 0;
     height: 1px;
     margin: 37px auto;
