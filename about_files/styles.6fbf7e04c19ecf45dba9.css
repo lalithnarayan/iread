@@ -253,57 +253,74 @@ template {
 
 /* roboto-regular - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-italic - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 400;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-500 - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-500italic - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 500;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-500italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-500italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-700 - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-700italic - latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 700;
-  src: local(''),
-       url('../assets/fonts/roboto-v20-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../assets/fonts/roboto-v20-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+        url('../assets/fonts/roboto-v20-latin-700italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../assets/fonts/roboto-v20-latin-700italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 figure,
@@ -1497,4 +1514,405 @@ dm-feature-text hr {
 input::-ms-check,
 input::-ms-clear {
     display: none
+}
+
+[_nghost-deepmind-website-c4] {
+    height: 100%;
+    width: 100%
+}
+
+.mobile-filter[_nghost-deepmind-website-c4] .overlay[_ngcontent-deepmind-website-c4] {
+    display: block
+}
+
+.overlay[_ngcontent-deepmind-website-c4] {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 40
+}
+
+.overlay.is-navigation[_ngcontent-deepmind-website-c4] {
+    z-index: 30
+}
+
+.backdrop[_ngcontent-deepmind-website-c4] {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(20, 35, 75, .8);
+    z-index: 41
+}
+
+.is-navigation[_ngcontent-deepmind-website-c4] .backdrop[_ngcontent-deepmind-website-c4] {
+    z-index: 31
+}
+
+.modal-container[_ngcontent-deepmind-website-c4] {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 42
+}
+
+.is-navigation[_ngcontent-deepmind-website-c4] .modal-container[_ngcontent-deepmind-website-c4] {
+    height: 100%;
+    width: 100%;
+    z-index: 32
+}
+
+.modal-content[_ngcontent-deepmind-website-c4] {
+    display: flex;
+    min-height: calc(100% - 60px);
+    width: 100%
+}
+
+.is-navigation[_ngcontent-deepmind-website-c4] .modal-content[_ngcontent-deepmind-website-c4] {
+    background-color: #0053d6;
+    margin-top: 60px
+}
+
+@media (min-width:768px) {
+    .mobile-filter[_nghost-deepmind-website-c4] .overlay[_ngcontent-deepmind-website-c4] {
+        display: flex
+    }
+
+    .modal-content[_ngcontent-deepmind-website-c4] {
+        min-height: calc(100% - 70px)
+    }
+
+    .is-navigation[_ngcontent-deepmind-website-c4] .modal-content[_ngcontent-deepmind-website-c4] {
+        margin-top: 70px
+    }
+}
+
+@media (min-width:1024px) {
+    .overlay.is-navigation[_ngcontent-deepmind-website-c4] {
+        padding-left: 100px
+    }
+
+    .modal-container[_ngcontent-deepmind-website-c4] {
+        overflow: auto
+    }
+
+    .modal-content[_ngcontent-deepmind-website-c4] {
+        min-height: 100%
+    }
+
+    .is-navigation[_ngcontent-deepmind-website-c4] .modal-content[_ngcontent-deepmind-website-c4] {
+        margin: 0;
+        padding: 0
+    }
+}
+
+span.caption[_ngcontent-deepmind-website-c50] {
+    font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+span.caption.title[_ngcontent-deepmind-website-c50] {
+    font-weight: 700
+}
+
+[_nghost-deepmind-website-c50] {
+    display: block;
+    padding: 40px 0 55px;
+    position: relative
+}
+
+@media (min-width:768px) {
+    [_nghost-deepmind-website-c50] {
+        padding: 55px 0 85px
+    }
+}
+
+@media (min-width:1024px) {
+    [_nghost-deepmind-website-c50] {
+        padding: 85px 0 80px
+    }
+}
+
+.container[_ngcontent-deepmind-website-c50] {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px;
+    position: relative
+}
+
+@media (min-width:768px) {
+    .container[_ngcontent-deepmind-website-c50] {
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 45px
+    }
+
+    .container[_ngcontent-deepmind-website-c50] .staff-bio-intro[_ngcontent-deepmind-website-c50] {
+        max-width: 75%
+    }
+}
+
+@media (min-width:1440px) {
+    [_nghost-deepmind-website-c50] {
+        padding: 90px 0 120px
+    }
+
+    .container[_ngcontent-deepmind-website-c50] {
+        margin: 0 0 70px
+    }
+}
+
+.controls[_ngcontent-deepmind-website-c50] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+dm-arrow-btn[_ngcontent-deepmind-website-c50]:not(:last-child) {
+    margin-right: 16px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] {
+    align-self: flex-start;
+    max-width: 147px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50]:not(:last-child) {
+    margin: 0 20px 0 0
+}
+
+@media (min-width:768px) {
+    .controls[_ngcontent-deepmind-website-c50] {
+        justify-content: normal;
+        width: auto
+    }
+
+    [dmCarouselItem][_ngcontent-deepmind-website-c50] {
+        max-width: 160px
+    }
+
+    [dmCarouselItem][_ngcontent-deepmind-website-c50]:not(:last-child) {
+        margin: 0 30px 0 0
+    }
+}
+
+@media (min-width:800px) {
+    [dmCarouselItem][_ngcontent-deepmind-website-c50]:not(:last-child) {
+        margin: 0 40px 0 0
+    }
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] .dm-h5[_ngcontent-deepmind-website-c50] {
+    font-size: 16px;
+    margin: 0
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] p[_ngcontent-deepmind-website-c50] {
+    margin: 0 0 15px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] p.small[_ngcontent-deepmind-website-c50] {
+    line-height: 20px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] .expand[_ngcontent-deepmind-website-c50] .caption[_ngcontent-deepmind-website-c50] {
+    color: #0053d6;
+    margin: 0 0 0 10px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] .expand[_ngcontent-deepmind-website-c50] svg[_ngcontent-deepmind-website-c50] {
+    height: 24px;
+    min-width: 24px;
+    width: 24px
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] picture[_ngcontent-deepmind-website-c50] {
+    display: flex;
+    height: 196px;
+    overflow: hidden
+}
+
+[dmCarouselItem][_ngcontent-deepmind-website-c50] picture[_ngcontent-deepmind-website-c50] img[_ngcontent-deepmind-website-c50] {
+    height: 100%;
+    max-width: none;
+    width: auto
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] {
+    background-color: #fff;
+    display: flex;
+    height: 100%;
+    margin: 30px;
+    max-height: 80vh;
+    max-width: 900px;
+    overflow: auto;
+    position: relative;
+    width: 100%
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .close[_ngcontent-deepmind-website-c50] {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 3
+}
+
+@media (min-width:768px) {
+    [dmCarouselItem][_ngcontent-deepmind-website-c50] picture[_ngcontent-deepmind-website-c50] {
+        height: 213px
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] {
+        max-height: calc(100vh - 60px)
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .close[_ngcontent-deepmind-website-c50] {
+        right: 30px;
+        top: 30px
+    }
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .picture[_ngcontent-deepmind-website-c50] {
+    display: none;
+    flex-shrink: 0
+}
+
+@media (min-width:768px) {
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .picture[_ngcontent-deepmind-website-c50] {
+        display: block;
+        max-width: 250px;
+        width: calc(50% - 30px)
+    }
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .staff-description[_ngcontent-deepmind-website-c50] {
+    height: 100%;
+    padding: 20px
+}
+
+@media (min-width:768px) {
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .staff-description[_ngcontent-deepmind-website-c50] {
+        padding: 30px
+    }
+}
+
+@media (min-width:1024px) {
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .close[_ngcontent-deepmind-website-c50] {
+        right: 20px;
+        top: 20px
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .picture[_ngcontent-deepmind-website-c50] {
+        max-width: none;
+        width: calc(50% - 70px)
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .staff-description[_ngcontent-deepmind-website-c50] {
+        padding: 70px
+    }
+}
+
+@media (min-width:1440px) {
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .close[_ngcontent-deepmind-website-c50] {
+        right: 35px;
+        top: 35px
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .picture[_ngcontent-deepmind-website-c50] {
+        width: calc(50% - 100px)
+    }
+
+    .staff-modal-container[_ngcontent-deepmind-website-c50] .staff-description[_ngcontent-deepmind-website-c50] {
+        padding: 100px
+    }
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .staff-content[_ngcontent-deepmind-website-c50] {
+    margin-bottom: 30px
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .staff-cta[_ngcontent-deepmind-website-c50] {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .staff-cta[_ngcontent-deepmind-website-c50] a[_ngcontent-deepmind-website-c50]:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] .dm-h3[_ngcontent-deepmind-website-c50] {
+    margin: 0 0 10px
+}
+
+.staff-modal-container[_ngcontent-deepmind-website-c50] p[_ngcontent-deepmind-website-c50] {
+    margin: 0 0 30px
+}
+
+a.twitter[_ngcontent-deepmind-website-c50] svg[_ngcontent-deepmind-website-c50] {
+    height: 30px;
+    padding: 4px;
+    width: 30px
+}
+
+a.arrow[_ngcontent-deepmind-website-c50] svg[_ngcontent-deepmind-website-c50] {
+    fill: #0053d6;
+    height: 20px;
+    padding-left: 10px;
+    width: 20px
+}
+
+a.arrow[_ngcontent-deepmind-website-c50]:focus svg[_ngcontent-deepmind-website-c50],
+a.arrow[_ngcontent-deepmind-website-c50]:hover svg[_ngcontent-deepmind-website-c50] {
+    fill: #fff
+}
+
+picture[_ngcontent-deepmind-website-c50] {
+    margin: 0 0 20px
+}
+
+@media (min-width:768px) {
+    picture[_ngcontent-deepmind-website-c50] {
+        margin: 0 0 30px
+    }
+}
+
+picture.h-left[_ngcontent-deepmind-website-c50] {
+    justify-content: flex-start
+}
+
+picture.h-center[_ngcontent-deepmind-website-c50] {
+    justify-content: center
+}
+
+picture.h-right[_ngcontent-deepmind-website-c50] {
+    justify-content: flex-end
+}
+
+picture.v-left[_ngcontent-deepmind-website-c50] {
+    align-items: flex-start
+}
+
+picture.v-center[_ngcontent-deepmind-website-c50] {
+    align-items: center
+}
+
+picture.v-right[_ngcontent-deepmind-website-c50] {
+    align-items: flex-end
+}
+
+#kartik_modal {
+    display: none;
+}
+
+#harsh_modal {
+    display: none;
 }
