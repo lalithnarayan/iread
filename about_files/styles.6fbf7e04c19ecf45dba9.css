@@ -766,7 +766,7 @@ span.caption.title {
 }
 
 .dm-cta.icon {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border: 1px solid #654ae9;
     border-radius: 50%
 }
@@ -795,7 +795,7 @@ span.caption.title {
 
 .dm-cta.icon.flat:focus,
 .dm-cta.icon.flat:hover {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border-color: #654ae9
 }
 
@@ -829,13 +829,13 @@ span.caption.title {
 
 .dm-cta.icon.alternate:focus,
 .dm-cta.icon.alternate:hover {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border: 1px solid #654ae9;
     fill: #fff
 }
 
 .dm-cta.pill {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border: 1px solid #654ae9;
     border-radius: 30px;
     color: #fff;
@@ -883,7 +883,7 @@ span.caption.title {
 
 .dm-cta.pill.tag:focus,
 .dm-cta.pill.tag:hover {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border: 1px solid #654ae9;
     color: #fff
 }
@@ -905,7 +905,7 @@ span.caption.title {
 
 .dm-cta.pill.alternate:focus,
 .dm-cta.pill.alternate:hover {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border: 1px solid #654ae9;
     color: #fff
 }
@@ -972,7 +972,7 @@ button.nav-cta.small {
 
 .dm-cta.link:focus svg,
 .dm-cta.link:hover svg {
-    background-color: #654ae9;
+    background-color: #0053d6;
     fill: #fff
 }
 
@@ -988,7 +988,7 @@ button.nav-cta.small {
 
 .dm-cta.link.flat:focus svg,
 .dm-cta.link.flat:hover svg {
-    background-color: #654ae9;
+    background-color: #0053d6;
     fill: #fff
 }
 
@@ -1260,7 +1260,7 @@ button.nav-cta.small {
 }
 
 #cookieBar .cookieBarButtons a {
-    background-color: #654ae9;
+    background-color: #0053d6;
     border-radius: 30px;
     font: 11px/16px "Roboto", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
