@@ -321,7 +321,7 @@ ul {
 figcaption,
 li,
 p {
-    font: 400 14px/25px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 400 14px/25px "Roboto", Helvetica, Arial, sans-serif
 }
 
 @media (min-width: 1024px) {
@@ -336,7 +336,7 @@ p {
 
 input,
 label {
-    font: 400 18px/28px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 400 18px/28px "Roboto", Helvetica, Arial, sans-serif
 }
 
 a,
@@ -396,7 +396,7 @@ figcaption.small,
 label.small,
 li.small,
 p.small {
-    font: 14px/20px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 14px/20px "Roboto", Helvetica, Arial, sans-serif
 }
 
 a.large,
@@ -405,7 +405,7 @@ figcaption.large,
 label.large,
 li.large,
 p.large {
-    font: 18px/30px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 18px/30px "Roboto", Helvetica, Arial, sans-serif
 }
 
 a p,
@@ -442,7 +442,7 @@ p.footnote {
 a,
 button {
     cursor: pointer;
-    font-family: "Deepmind Sans", Helvetica, Arial, sans-serif
+    font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
 a {
@@ -520,7 +520,7 @@ label.caption,
 li.caption,
 p.caption,
 span.caption {
-    font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    font: 11px/16px "Roboto", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase
 }
@@ -666,7 +666,7 @@ span.caption.title {
 
 .theme-dark .dm-h2,
 .theme-dark .user-content h2 {
-    font-family: "Deepmind Sans", Helvetica, Arial, sans-serif
+    font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
 .dm-h3,
@@ -715,12 +715,12 @@ span.caption.title {
 
 .ink-dark .dm-h4,
 .ink-dark .user-content h4 {
-    font-family: "Deepmind Sans", Helvetica, Arial, sans-serif
+    font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
 .dm-h5,
 .user-content h5 {
-    font: 700 18px/22px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 700 18px/22px "Roboto", Helvetica, Arial, sans-serif
 }
 
 @media (min-width: 768px) {
@@ -741,7 +741,7 @@ span.caption.title {
     border: 0;
     cursor: pointer;
     display: inline-flex;
-    font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    font: 11px/16px "Roboto", Helvetica, Arial, sans-serif;
     justify-content: center;
     letter-spacing: 2px;
     transition: background-color .15s linear, border-color .15s linear, color .15s linear
@@ -919,7 +919,7 @@ a.nav-cta,
 button.nav-cta {
     border: 0;
     color: #fff;
-    font: 14px/18px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 14px/18px "Roboto", Helvetica, Arial, sans-serif
 }
 
 a.nav-cta:focus,
@@ -953,7 +953,7 @@ button.nav-cta.icon:hover svg {
 
 a.nav-cta.small,
 button.nav-cta.small {
-    font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 11px/16px "Roboto", Helvetica, Arial, sans-serif
 }
 
 .dm-cta.link svg {
@@ -1251,7 +1251,7 @@ button.nav-cta.small {
 
 #cookieBar .cookieBarInner .cookieBarText {
     color: #fff;
-    font: 14px/20px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    font: 14px/20px "Roboto", Helvetica, Arial, sans-serif;
     margin: 0
 }
 
@@ -1262,7 +1262,7 @@ button.nav-cta.small {
 #cookieBar .cookieBarButtons a {
     background-color: #654ae9;
     border-radius: 30px;
-    font: 11px/16px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    font: 11px/16px "Roboto", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
     outline: 0;
     padding: 13px 20px;
@@ -1344,7 +1344,7 @@ button.nav-cta.small {
 
 .user-content li,
 .user-content p {
-    font: 400 16px/27px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 400 16px/27px "Roboto", Helvetica, Arial, sans-serif
 }
 
 .user-content span {
@@ -1401,11 +1401,11 @@ button.nav-cta.small {
 }
 
 .user-content .stand-first {
-    font: 400 26px/36px "Deepmind Sans", Helvetica, Arial, sans-serif
+    font: 400 26px/36px "Roboto", Helvetica, Arial, sans-serif
 }
 
 .user-content .blockquote {
-    font: 400 18px/28px "Deepmind Sans", Helvetica, Arial, sans-serif;
+    font: 400 18px/28px "Roboto", Helvetica, Arial, sans-serif;
     margin: 50px 0 40px
 }
 
@@ -1469,7 +1469,7 @@ dm-impact-carousel .user-content p {
 #staff_profile>dm-impact-carousel .user-content h2,
 #staff_profile>dm-impact-carousel .user-content h3,
 #staff_profile>dm-impact-carousel .user-content h4 {
-    font-family: "Deepmind Sans", Helvetica, Arial, sans-serif
+    font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
 dm-feature-text hr {
