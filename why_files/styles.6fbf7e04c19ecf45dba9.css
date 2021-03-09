@@ -1885,7 +1885,7 @@ header.is-menu-open[_ngcontent-deepmind-website-c2] .pages[_ngcontent-deepmind-w
 }
 
 .search[_ngcontent-deepmind-website-c2] svg[_ngcontent-deepmind-website-c2] g[_ngcontent-deepmind-website-c2] [_ngcontent-deepmind-website-c2]:first-child {
-    fill: #654ae9
+    fill: #0053d6
 }
 
 .search-icon[_ngcontent-deepmind-website-c2] {
@@ -2125,7 +2125,7 @@ footer[_ngcontent-deepmind-website-c3] {
 
 @media (min-width:768px) {
     .categories[_ngcontent-deepmind-website-c3] .column[_ngcontent-deepmind-website-c3] ul[_ngcontent-deepmind-website-c3] {
-        border-left: 1px solid #654ae9;
+        border-left: 1px solid #0053d6;
         margin: 15px 0 0;
         padding: 0 0 0 8px
     }
@@ -2192,7 +2192,7 @@ footer[_ngcontent-deepmind-website-c3] {
 
 .shape[_ngcontent-deepmind-website-c3] svg[_ngcontent-deepmind-website-c3] {
     bottom: -100px;
-    fill: #654ae9;
+    fill: #0053d6;
     height: 400px;
     position: absolute;
     right: -100px;
