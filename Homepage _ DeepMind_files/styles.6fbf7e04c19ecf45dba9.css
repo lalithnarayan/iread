@@ -752,10 +752,8 @@ span.caption.title {
 }
 
 .dm-cta svg {
-    height: 14px;
-    min-width: 14px;
+    height: 40px;
     transition: fill .15s linear;
-    width: 14px
 }
 
 .theme-dark .dm-cta,

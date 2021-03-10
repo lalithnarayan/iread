@@ -632,7 +632,7 @@ span.caption.title {
 
     .dm-h1,
     .user-content h1 {
-       font-size: 60px;
+        font-size: 60px;
         line-height: 80px
     }
 }
@@ -770,10 +770,9 @@ span.caption.title {
 }
 
 .dm-cta svg {
-    height: 14px;
-    min-width: 14px;
+    height: 40px;
+
     transition: fill .15s linear;
-    width: 14px
 }
 
 .theme-dark .dm-cta,
@@ -2033,7 +2032,6 @@ footer[_ngcontent-deepmind-website-c3] {
 @media (min-width:1024px) {
     .logo[_ngcontent-deepmind-website-c3] {
         display: block;
-        margin: 0 0 45px
     }
 }
 
@@ -2281,7 +2279,7 @@ footer[_ngcontent-deepmind-website-c3] {
     position: absolute;
     top: 0;
     width: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .image[_ngcontent-deepmind-website-c9],
