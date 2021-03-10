@@ -517,7 +517,8 @@ button:disabled {
 }
 
 span {
-    display: inline-block
+    display: inline-block;
+  
 }
 
 .caption.dm-h1,
